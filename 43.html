@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Unità 3 - Input/Output</title>
+
+    <link rel="stylesheet" href="/style/43.css">
+</head>
+    <body>
+        <div class="img" style="background-image:url('./img/vecteezy_minimalist-blue-premium-abstract-background-with-3d-abstract_6828059.png')"></div>
+
+        <h1 class="titolo">Tecniche per la gestione delle periferiche</h1>
+
+        <div class="container">
+            <a href="./41.html" class="elenco"><b>Concetti Generali</b></a>
+            <a href="./42.html" class="elenco"><b>Struttura di un I/O</b></a>
+        </div>
+
+        <div class="sfondotesto">
+            <p class="testo">
+                Per accedere ai registri delle periferiche  e effettuare un trasferimento di dati, la CPU può utilizzare tre tecniche di gestione: <br>
+                <br>
+
+                <ul>
+                    <li>La tecnica di Polling:  Consiste in un interrogazione ciclica della CPU nei confronti della periferica.<br>
+                        A ogni periferica vengono assegnati dei flag di stato e l’unita centrale legge i flag tipo “dato pronto e disponibile”. Allora viene eseguito il frammento di codice relativo al trasferimento del dato.<br>
+                        Il limite di questa tecnica è che la CPU deve spendere del tempo a interrogare dei flag anche se essi non hanno nulla da segnalare.<br>
+                    </li>
+                    <br>
+                    <li>La tecnica dell’interrupt: Consiste nel interrompere la CPU nell’esecuzione di un istruzione che sta eseguendo per farle svolgere un programma (routine) diverso.<br>
+                        Alla fine della routine, la CPU riprende il programma che aveva interrotto.<br>
+                        La CPU può rispondere subito, posticipare di poco la risposta o ignorare l’interruzione.<br>
+                    </li>
+                    <br>
+                    <li>La tecnica del DMA: è il modo diretto per il trasferimento dei dati tra I/O e memoria senza passare dalla CPU.<br>
+                        Il dispositivo DMA si sostituisce alla CPU, prende in carico il bus al suo posto e fa transitare i dati direttamente dalla periferica alla memoria centrale e viceversa.<br>
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <img src="./img/43/Immagine 2022-11-24 173922.png" alt="" class="immagine43">
+        <img src="./img/43/Immagine 2022-11-24 173950.png" alt="" class="immagine243">
+
+        <h1 class="diritti"> ATTENZIONE USARE UN MONITOR CON UNA RISOLUZIONA PARI A 1920X1080 <br> Tutti i diritti sono riservati a DenisGandibula e IvanDrogoman @2022</h1>
+    </body>
+</html>

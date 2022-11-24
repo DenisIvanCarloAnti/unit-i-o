@@ -1,0 +1,133 @@
+.immagine43{
+    position: relative;
+    margin-top: 160px;
+    margin-right: 50px;
+    float: right;
+    width: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    opacity: 5%;
+    transition: all 0.2s ease-out;
+}
+
+.immagine43:hover{
+    margin-top: 100px;
+    width: 850px;
+    opacity: 100%;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+.immagine243{
+    position: absolute;
+    margin-top: 160px;
+    margin-right: 100px;
+    float: right;
+    width: 300px;
+    border-radius: 10%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    opacity: 5%;
+    transition: all 0.2s ease-out;
+}
+
+.immagine243:hover{
+    margin-top: 100px;
+    width: 500px;
+    opacity: 100%;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    position: fixed;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.titolo{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+.elenco {
+    color: white;
+    padding:1em;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.elenco:hover{
+    color: rgb(151, 151, 151);
+    font-size: 21px;
+    text-decoration: none;
+} 
+
+.sfondotesto{
+    position: absolute;
+    color: white;
+    background-color: rgba(0,0,0,.2);
+    width: 1000px;
+    height: 380px;
+    border-radius: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-top: 60px;
+    margin-left: 330px;
+    margin-right: auto;
+    z-index: 1;
+    
+}
+
+.testo{
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.testoleft{
+    margin-left: 15px;
+}
+
+.diritti{
+    position: absolute;
+    margin-top: 100px;
+    margin-top: 700px;
+    margin-left: 650px;
+    font-size: 15px;
+    color: white;
+}

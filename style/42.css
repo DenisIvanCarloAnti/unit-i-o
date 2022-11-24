@@ -1,0 +1,20 @@
+.immagine42{
+    position: relative;
+    margin-top: 160px;
+    margin-right: 50px;
+    float: right;
+    width: 500px;
+    border-radius: 10%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    opacity: 5%;
+    transition: all 0.2s ease-out;
+}
+
+.immagine42:hover{
+    margin-top: 100px;
+    width: 850px;
+    opacity: 100%;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+}
